@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATOS DEL PRODUCTO"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pc"
+
+                />
+
+            <EditText
+                android:id="@+id/et_codigo"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:hint="Ingrese el codigo"
+                android:inputType="phone"
+                android:textColor="@color/mycolor"
+                android:textColorHint="@color/mycolor"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/et_descripcion"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:hint="Ingrese una descripcion"
+                android:inputType="text"
+                android:textColor="@color/mycolor"
+                android:textColorHint="@color/mycolor"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/et_precio"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:hint="Ingrese el precio"
+                android:inputType="phone"
+                android:textColor="@color/mycolor"
+                android:textColorHint="@color/mycolor"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+
+            <Spinner
+                android:layout_marginTop="30dp"
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/btn_guardar"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="alta"
+                android:text="GUARDAR REGISTRO"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_consultar1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="consultaporcodigo"
+                android:layout_marginTop="15dp"
+                android:text="CONSULTAR POR CODIGO"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_consultar2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:onClick="consultarpordescripcion"
+                android:text="CONSULTAR POR DESCRIPCION"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_eliminar"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="BORRAR REGISTRO"
+                android:onClick="bajaporcodigo"
+                android:textColor="@color/black"
+                />
+
+
+            <Button
+                android:id="@+id/btn_actualizarRegistro"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="ACTUALIZAR REGISTRO"
+                android:onClick="modificacion"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eisp.evaluacion_crudsqlite.MainActivity">
+    <item
+        android:id="@+id/action_limpiar"
+        android:orderInCategory="100"
+        android:title="Limpiar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_listaArticulos"
+        android:orderInCategory="100"
+        android:title="Listado de Productos  Spinner"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_listaArticulos1"
+        android:orderInCategory="100"
+        android:title="Listado de Productos   ListView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_listaArticulos2"
+        android:orderInCategory="100"
+        android:title="Listado de Productos Categorias"
+        app:showAsAction="never" />
+</menu>

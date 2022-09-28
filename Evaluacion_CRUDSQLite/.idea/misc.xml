@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/circulo1.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/ic_delete.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/ic_ir.xml" value="0.1255" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.19375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_detalles_cat_pro.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_list_view_articulos.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_list_view_cat_pro.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/layout/ventana1.xml" value="0.2732919254658385" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Evaluacion_CRUDSQLite/app/src/main/res/mipmap-anydpi-v26/ic_launcherisma.xml" value="0.151" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
